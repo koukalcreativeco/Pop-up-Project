@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    font-size: 1.2em;
+}
+
+#logo {
+    width: 50px;
+    height: 75px;
+    z-index: 0;
+}
+
+#promo {
+    width: 90vw;
+    height: 35vh;
+    background-color: #91C499;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+#content {
+    width: 90vw;
+    height: 50vh;
+    background-color: #808F85;
+    margin: 20px;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+#cookie {
+    width: 45vw;
+    height: 60vh;
+    background-color: #595959;
+    border-radius: 10px;
+    display: none;
+    
+    position: fixed;
+    z-index: 1;
+    
+}
+
+#contaner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#cookie p {
+    font-size: 1.2em;
+    color: white;
+}
+
+#cookie button {
+    background-color: #91C499;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
